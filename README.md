@@ -1,2 +1,2 @@
-# glynac_AI
+# DB_AI
 For testing AI
