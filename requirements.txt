@@ -1,0 +1,11 @@
+azure-ai-inference
+pandas
+numpy
+matplotlib
+seaborn
+sentence-transformers
+groq
+python-dotenv
+psycopg2-binary
+nltk
+flask

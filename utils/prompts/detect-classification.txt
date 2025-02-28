@@ -1,0 +1,38 @@
+##Email
+```
+$#emailbody#$
+```
+
+Your task is to classify the email into one of the following categories
+
+##Categories :
+
+$#sentiment-categories#$
+
+
+##Json format
+```json
+{"response":
+[
+    {"category_name": str (name of the category), "probability": int (probability of that category between 0-100)}
+    {"category_name": str (name of the category), "probability": int (probability of that category between 0-100)}
+    ....
+]
+}
+```
+
+##steps :
+1. discussion : a discussion about the email where you would comapare it with the categories given and where it falls.
+2. json : json response about the probability between 0-100 about each category for the given mail. Each probability should be given between 0-100 score. These scores are independent for each category.
+
+
+##Important Rules
+1. do not write any json format in anywhere except for in the json output.
+2. always follow the given json format.
+3. always give the json output at the end of your response
+4. discussion shuold be between 200-700 words.
+5. always use the <json> tag to encasulate for json output
+
+
+##Special Rules
+$#specialrules#$
