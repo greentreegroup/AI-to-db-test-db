@@ -6,8 +6,9 @@
 
 first create a conda environment
 
+```
 conda create --name sentiment-env python=3.13.2
-
+```
 
 
 ```
