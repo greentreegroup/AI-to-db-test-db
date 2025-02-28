@@ -10,11 +10,18 @@ first create a conda environment
 conda create --name sentiment-env python=3.13.2
 ```
 
+activate the conda environment
+```
+conda activate sentiment-env
+```
+
+install required libraries
 
 ```
 pip install -r requirements.txt
 ```
 
+install onnx modules to be able to run the model on the server
 ```
 conda install -c conda-forge onnx onnxruntime
 ```
